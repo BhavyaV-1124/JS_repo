@@ -17,4 +17,14 @@ let isLoggedIn = "Bhavya";
 
 let booleanIsLoggedIn = Boolean(isLoggedIn);
 
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
+ 
+
+// ********** Operations ************
+
+let value = 3;
+let negValue = -value;
+
+// console.log(negValue);
+
+console.log(+true);
