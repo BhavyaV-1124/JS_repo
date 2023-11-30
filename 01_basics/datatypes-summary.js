@@ -27,3 +27,8 @@ const myFunction = function(){
     console.log("Hello World"); // Function
 }
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Memory 
+
+// Stack (Primitive), Heap (Non-Primitive)
+
