@@ -27,4 +27,35 @@ function loginUserMessage(username){
     return `${username} just logged in`;
 };
 
-console.log(loginUserMessage("Bhavya"));
+// console.log(loginUserMessage("Bhavya"));
+
+function calculateCartPrice(...num1){
+    return num1;
+}
+
+console.log(calculateCartPrice(200, 300, 500));
+// if more than one value in function use the case of rest 
+
+const user = {
+    userName: "Bhavya",
+    price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.userName} and price is ${anyobject.price}`);
+}
+
+// handleObject(user);
+
+handleObject({
+    userName: "BV",
+    price: 99
+});
+
+const myNewArray = [200, 400, 100, 600];
+
+function returnSecondValue(getArray){
+    return getArray[1];
+}
+
+console.log(returnSecondValue(myNewArray));
